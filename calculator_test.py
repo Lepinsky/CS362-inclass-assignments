@@ -1,7 +1,7 @@
 import unittest
 import calculator as c
 
-class TestStringMethods(unittest.TestCase):
+class TestCalculator(unittest.TestCase):
 
     def test_addition(self): #Addition
         self.assertEqual(c.addition(1, 2), 3)
